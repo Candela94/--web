@@ -1,0 +1,54 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+
+    font-size: 14px;
+    font-family: montserrat;
+
+}
+
+
+
+
+
+@font-face {
+    font-family: cartoon;
+    src: url(/public/fonts/cartoonCheck-black\.ttf);
+}
+
+
+@font-face {
+    font-family: montserrat;
+    src: url(/public/fonts/Montserrat-Medium.ttf);
+}
+
+
+
+@font-face {
+    font-family: montserra-bold;
+    src: url(/public/fonts/Montserrat-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: montserra-extrabold;
+    src: url(/public/fonts/Montserrat-ExtraBold.ttf);
+}
+
+
+
+
+
+h1{
+    font-family: cartoon;
+}
+
+
+
