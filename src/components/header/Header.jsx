@@ -16,7 +16,7 @@ export const Header = () => {
             <nav className="Header-nav">
                 <ul className="Header-ul">
                     <li className="Header-li Header-nav">CONTACTO</li>
-                    <li className="Header-li header-logo">"{title || ''}"</li>
+                    <li className="Header-li Header-logo">"{title || ''}"</li>
                     <li className="Header-li Header-nav">PROYECTOS</li>
                 </ul>
             </nav>

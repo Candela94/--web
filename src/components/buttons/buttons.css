@@ -1,0 +1,31 @@
+
+
+
+.Button{
+    font-family: montserrat;
+    background: none;
+    padding: 1rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.Btn-primary{
+
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+
+.Btn-nonStyle{
+    border: none;
+}
+
+
+.Btn-danger{
+
+    background-color: rgb(208, 37, 37);
+    border: none;
+    color: white;
+}
