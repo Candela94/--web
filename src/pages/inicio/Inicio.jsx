@@ -1,4 +1,5 @@
-
+import { NavLink } from "react-router";
+import { Button } from "../../components/buttons/Buttons";
 
 
 
@@ -7,7 +8,11 @@ const Inicio = () => {
 
     return (  
         <>
-        
+        <h1>INICIO</h1>
+
+
+
+       <NavLink to='/onboarding-1'><Button>Empezar</Button></NavLink> 
         </>
     );
 

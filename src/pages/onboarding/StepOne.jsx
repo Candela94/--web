@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { Header } from "../../components/header/Header";
 import { Button } from '../../components/buttons/Buttons';
 import { FaRegCircleCheck } from "react-icons/fa6";
-
+import { NavLink } from 'react-router';
 
 import { useTitle } from "../../context/TitleContext";
 
@@ -19,7 +19,7 @@ const StepOne = () => {
 
     const [fadeOut, setFadeOut] = useState(false)
 
-    const [showNext, setShowNext] = useState(false)
+    
     
 
 
@@ -41,7 +41,7 @@ const StepOne = () => {
             setTitle(inputText)
             setInputText('')
             setShowNotificacion(true)
-            setShowNext(true)
+         
             setFadeOut(false)
 
 
@@ -111,14 +111,11 @@ const StepOne = () => {
                         }
 
 
-                        {
-                            showNext && (
+                    
                                 <div className="Next-step">
-                                    <Button variant='primary'>Siguiente paso</Button>
+                                <NavLink to='/onboarding-2'> <Button variant='primary'>Siguiente paso</Button></NavLink>
                                 </div>
-                            )
-                        }
-                        </div>
+                      </div>
 
                     </section>
 
