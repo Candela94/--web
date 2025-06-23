@@ -12,9 +12,9 @@
 
 .Btn-primary{
 
-    background-color: black;
+    background-color: var(--text);
     border: none;
-    color: white;
+    color: var(--background);
 }
 
 

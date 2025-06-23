@@ -12,7 +12,7 @@ const Inicio = () => {
 
 
 
-       <NavLink to='/onboarding-1'><Button>Empezar</Button></NavLink> 
+       <NavLink to='/onboarding'><Button>Empezar</Button></NavLink> 
         </>
     );
 

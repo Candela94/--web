@@ -71,10 +71,10 @@ const StepOne = () => {
 
             <div className="Body-onboarding">
                 {/* <Header /> */}
-                <main className="Main">
+               
 
 
-                    <section className="Main-introduccion">
+                    <div className="Main-introduccion">
 
 
                         <h1 className="Main-titulo">"{inputText || title}"
@@ -112,15 +112,13 @@ const StepOne = () => {
 
 
                     
-                                <div className="Next-step">
-                                <NavLink to='/onboarding-2'> <Button variant='primary'>Siguiente paso</Button></NavLink>
-                                </div>
+                               
                       </div>
 
-                    </section>
+                    </div>
 
 
-                </main>
+                
             </div>
 
 

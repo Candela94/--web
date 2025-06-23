@@ -1,6 +1,7 @@
 
 
 import './buttons.css'
+import '../../css/App.css'
 
 
 export const Button = ({ type = 'button', onClick, variant, children, className }) => {

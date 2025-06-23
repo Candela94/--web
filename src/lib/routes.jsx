@@ -4,10 +4,7 @@ import App from "../App"
 
 
 import Inicio from "../pages/inicio/Inicio"
-import StepOne from "../pages/onboarding/StepOne"
-import StepTwo from "../pages/onboarding/StepTwo"
-import StepThree from "../pages/onboarding/StrepThree"
-import StepFour from "../pages/onboarding/StepFour"
+import Onboarding from "../pages/onboarding/Onboarding"
 
 
 const router = createBrowserRouter([{
@@ -22,29 +19,12 @@ const router = createBrowserRouter([{
         },
 
         {
-            path: '/onboarding-1',
-            element:<StepOne />
+            path: '/onboarding',
+            element:<Onboarding />
         },
 
 
-        {
-            path: '/onboarding-2',
-            element:<StepTwo />
-        },
-
-
-
-        {
-            path: '/onboarding-3',
-            element:<StepThree />
-        },
-
-
-        {
-            path: '/onboarding-4',
-            element:<StepFour />
-        },
-
+      
     ]
 
     
