@@ -4,6 +4,30 @@
 /* Onboarding */
 
 
+/* modos */
+
+
+
+/* body.modo-claro{
+
+    --background: white;
+    --text: black;
+    --text2: black;
+
+}
+
+
+
+
+body.modo-oscuro{
+
+    --background: black;
+    --text:white;
+    --text2:white;
+}  */
+
+
+
 /* STEP 1 */
 
 .Body-onboarding{
@@ -158,6 +182,29 @@
 }
 
 
+
+
+
+
+/* STEP 3 */
+
+
+.Main-onboarding3{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+
+}
+
+.Cards-colores{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    height: 360px;
+}
 
 
 

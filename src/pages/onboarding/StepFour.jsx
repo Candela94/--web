@@ -7,7 +7,7 @@ const StepFour = () => {
     return (
 
         <>
-        <h1>Paso 4</h1>
+        <h1 className="h1">Paso 4</h1>
         </>
       );
 }

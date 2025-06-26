@@ -1,16 +1,15 @@
 import { CardMode } from "../../components/cards/Cards";
 import { useEffect, useState } from "react";
+import { useTheme } from "../../context/ThemeContext";
+import './onboarding.css'
 
 
-const StepTwo = ({modo, setModo}) => {
+const StepTwo = () => {
+
+
+    const {setModo, modo} = useTheme()
 
    
-
-    useEffect(() => {
-        localStorage.setItem('modo', modo)
-        document.body.classList.toggle('dark-mode' , modo ==='oscuro')
-        
-    },[modo])
 
     return (
         <>
@@ -18,14 +17,16 @@ const StepTwo = ({modo, setModo}) => {
             <main className="Main-onboarding2">
 
 
-                <h1 className="Titulo">Elige un modo</h1>
+                <h1 className="Titulo h1">Elige un modo</h1>
 
                 <CardMode
                  h2='Modo claro'
                     tipo='claro'
                     frase='Ideal para el día a día'
-                    seleccionado={modo === 'claro'}
-                    onClick={() => setModo('claro')}
+                    selected={modo === 'claro'}
+                    onClick={() =>
+                        setModo('claro')
+                    }
 
 
                 />
@@ -36,8 +37,10 @@ const StepTwo = ({modo, setModo}) => {
                     tipo="oscuro"
                     h2="Modo oscuro"
                     frase="Ideal para vistas un poco cansadas"
-                    seleccionado={modo === 'oscuro'}
-                    onClick={() => setModo('oscuro')}
+                    selected={modo === 'oscuro'}
+                    onClick={() =>
+                        setModo('oscuro')
+                    }
                 />
 
 

@@ -77,7 +77,7 @@ const StepOne = () => {
                     <div className="Main-introduccion">
 
 
-                        <h1 className="Main-titulo">"{inputText || title}"
+                        <h1 className="Main-titulo h1">"{inputText || title}"
                         </h1>
 
 

@@ -16,12 +16,13 @@
 
 
     --text: black;
-    --text2: black;
+    --headers: black;
+
 
 }
 
 
-.Body{
+body{
 
     background-color: var(--background);
     color: var(--text);
@@ -31,13 +32,8 @@
 }
 
 
-
-
-.dark-mode{
-
-    --background: black;
-    --text:white;
-    --text2:white;
+h1, h2, h3 {
+    color: var(--headers);
 }
 
 
