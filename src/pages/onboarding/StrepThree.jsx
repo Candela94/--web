@@ -10,18 +10,17 @@ const cardsMode = {
 
     claro: [
 
-        {id:1, name: 'Por defecto', bg:'#B5A897'},
-        {id:2, name: 'Gris', bg:'#F1A2E4'},
-        {id:3, name: 'Otro color', bg:'#91CFFF'},
+        {id:1, name: 'BG 1', bg:'#F7EFEA'},
+        {id:2, name: 'BG 2', bg:'#F8CFE1'},
+        {id:3, name: 'BG 3', bg:'#7D83F3'}
 
     ],
 
     oscuro: [
     
-        {id:1, name: 'Por defecto', bg:'#000000'},
-        {id:2, name: 'Gris ocsuro', bg:'#252525'},
-        {id:3, name: 'Gris', bg:'#30322F'},
-       
+        {id:1, name: 'BG 1', bg:'#3B2C3B'},
+        {id:2, name: 'BG 2', bg:'#212520'},
+        {id:3, name: 'BG 3', bg:'#352822'}
 
     ]
 

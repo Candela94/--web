@@ -21,7 +21,7 @@ const Onboarding = () => {
 
         switch (step) {
             case 1: return <StepOne />;
-            case 2: return <StepTwo modo={modo} setModo={setModo}/>;
+            case 2: return <StepTwo modo={modo} setModo={setModo} />;
             case 3: return <StepThree />;
             case 4: return <StepFour />;
 
@@ -37,7 +37,7 @@ const Onboarding = () => {
             <div className="Onboarding-container">
 
 
-               
+
                 <main className="Main">
                     {renderStep()}
                 </main>
@@ -45,8 +45,15 @@ const Onboarding = () => {
 
 
                 <div className="Next-step">
-                    <Button variant='secondary' onClick={() => setStep((prev) => Math.max(1, prev -1))}>Paso anterior</Button>
-                     <Button variant='primary' onClick={() => setStep((prev) => Math.min(4, prev +1))}>Siguiente paso</Button>
+
+                    {
+
+
+                        step > 1 && (
+                            <Button variant='secondary' onClick={() => setStep((prev) => (1, prev - 1))}>Paso anterior</Button>
+
+                        )}
+                    <Button variant='primary' onClick={() => setStep((prev) => Math.min(4, prev + 1))}>{step === 4 ? 'Comenzar' : 'Siguiente paso'}</Button>
                 </div>
 
 

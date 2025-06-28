@@ -17,11 +17,11 @@ export const ThemeProvider = ({ children }) => {
   const temas = {
     claro: {
       backgroundColor: '#ffffff',
-      color: '#000000',
+      color: '#252525',
     },
     oscuro: {
-      backgroundColor: '#1a1a1a',
-      color: '#ffffff',
+      backgroundColor: '#000000',
+      color: '#F7F5F5',
     },
   };
 
@@ -69,7 +69,7 @@ export const ThemeProvider = ({ children }) => {
   //Cambiar el color de los headers
   useEffect(() => {
 
-    if(!headers) {
+    if(headers) {
       
       document.documentElement.style.setProperty('--headers', headers);
       localStorage.setItem('headers', headers)
